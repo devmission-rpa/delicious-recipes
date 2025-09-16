@@ -1,0 +1,117 @@
+/* Background styling */
+.background {
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  opacity: 0.7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Semi-transparent overlay for contrast */
+.heading-container {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+
+/* Recipe container with Flexbox layout */
+.recipe-container {
+  display: flex;
+  gap: 2rem; /* Space between sections */
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Individual recipe sections */
+.recipe-section {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 300px; /* Constrain width */
+}
+
+/* Button styling */
+.btn {
+  margin-top: 1rem;
+}
+/* sets the font for the H1 to Google's Teko Font */
+.teko-font {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* sets the font for the card text in detail view */
+.card-font {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.card {
+  height: 44rem; /* Ensures all cards have the same height */
+  width: 32rem;
+  background-color: #FAFAFA;
+}
+.card-body {
+  text-align: left;
+}
+
+.card-img-top {
+  height: 39rem; /* Control image height */
+  width: 31.9rem;
+  object-fit: cover; /* Makes sure images scale well */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cardImageText {
+  padding: 100px;
+}
+.instructions{
+  margin-left: 0;
+}
+.instruction-card {
+  height: 30rem; /* Ensures all cards have the same height */
+  width: 96rem;
+  background-color: #FAFAFA;
+  margin-top: 4rem;
+}
+
+.dish-img {
+  height: 44rem; /* Ensures all cards have the same height */
+  width: 44rem;
+  background-color: #FAFAFA;
+  /* margin-left: 4rem; */
+}
+
+.bake-img {
+  height: 44rem; /* Ensures all cards have the same height */
+  width: 32rem;
+  background-color: #FAFAFA;
+  /* margin-left: 4rem; */
+}
+
+.ingredient-card {
+  height: 44rem; /* Ensures all cards have the same height */
+  width: 50rem;
+  background-color: #FAFAFA;
+  display:flex;
+  align-items: center;
+  /* margin-left: 12rem; */
+}
+
+
